@@ -1,6 +1,5 @@
 package nl.brianvermeer.example;
 
-import io.quarkiverse.langchain4j.runtime.aiservice.GuardrailException;
 import io.quarkus.websockets.next.OnError;
 import io.quarkus.websockets.next.OnOpen;
 import io.quarkus.websockets.next.OnTextMessage;
