@@ -20,7 +20,6 @@ public class ChatBot {
 
     @OnTextMessage
     public String onTextMessage(String message) {
-        System.out.println("Received message: " + message);
         return aiService.question(message);
     }
 
